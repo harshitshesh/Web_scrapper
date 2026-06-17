@@ -1,0 +1,47 @@
+[
+    {
+        "page": "My Applications",
+        "status": "success",
+        "components_found": 22
+    },
+    {
+        "page": "Facilities",
+        "status": "success",
+        "components_found": 15
+    },
+    {
+        "page": "Action Items",
+        "status": "success",
+        "components_found": 9
+    },
+    {
+        "page": "User Management",
+        "status": "success",
+        "components_found": 10
+    },
+    {
+        "page": "Announcements",
+        "status": "success",
+        "components_found": 10
+    },
+    {
+        "page": "Settings",
+        "status": "success",
+        "components_found": 7
+    },
+    {
+        "page": "FAQs",
+        "status": "success",
+        "components_found": 13
+    },
+    {
+        "page": "Tickets",
+        "status": "success",
+        "components_found": 27
+    },
+    {
+        "page": "Contact",
+        "status": "success",
+        "components_found": 6
+    }
+]

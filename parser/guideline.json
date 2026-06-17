@@ -1,0 +1,342 @@
+[
+    {
+        "section": "Section 2: Accessing WaiverPro — The Landing Page",
+        "rule": "URL for the landing page is /",
+        "page": 4
+    },
+    {
+        "section": "Section 2: Accessing WaiverPro — The Landing Page",
+        "rule": "Heading text must be 'Healthcare Waiver Management' with tagline 'Streamline your regulatory waiver process from submission to approval'",
+        "page": 4
+    },
+    {
+        "section": "Section 2: Accessing WaiverPro — The Landing Page",
+        "rule": "Search box placeholder text must be 'Search waivers' and filters the program list by name",
+        "page": 4
+    },
+    {
+        "section": "Section 2: Accessing WaiverPro — The Landing Page",
+        "rule": "Each published program card must show its name, description, Processing Time, Waiver Period, and an eligibility checklist",
+        "page": 4
+    },
+    {
+        "section": "Section 2: Accessing WaiverPro — The Landing Page",
+        "rule": "A program that is not currently open must show a status note (e.g. 'Expired') with the dates it was available",
+        "page": 4
+    },
+    {
+        "section": "Section 2: Accessing WaiverPro — The Landing Page",
+        "rule": "A 'Sign In' button must appear in the top-right corner and take the user to the sign-in screen",
+        "page": 4
+    },
+    {
+        "section": "Section 2: Accessing WaiverPro — The Landing Page",
+        "rule": "Footer must contain links to Privacy Policy and Terms of Service, with the line 'Copyright © 2025 WaiverPro'",
+        "page": 4
+    },
+    {
+        "section": "Section 3: Signing In",
+        "rule": "URL for the sign-in screen is /login",
+        "page": 6
+    },
+    {
+        "section": "Section 3: Signing In",
+        "rule": "Email field placeholder must be 'm@example.com'",
+        "page": 6
+    },
+    {
+        "section": "Section 3: Signing In",
+        "rule": "Password must be at least 6 characters",
+        "page": 6
+    },
+    {
+        "section": "Section 3: Signing In",
+        "rule": "A 'Forgot your password?' link must appear beside the password field",
+        "page": 6
+    },
+    {
+        "section": "Section 3: Signing In",
+        "rule": "After successful sign-in, the user must be taken to the My Applications dashboard",
+        "page": 6
+    },
+    {
+        "section": "Section 4: The Application Workspace & Navigation",
+        "rule": "Signed-in pages share a layout with a fixed sidebar on the left and a header along the top, under URL pattern /dashboard/...",
+        "page": 7
+    },
+    {
+        "section": "Section 4: The Application Workspace & Navigation",
+        "rule": "Sidebar top must show brand 'WaiverPro' with label 'Healthcare Waiver Management', followed by primary action button '+ New Waiver Request'",
+        "page": 7
+    },
+    {
+        "section": "Section 4: The Application Workspace & Navigation",
+        "rule": "Sidebar navigation items in order must be: My Applications, Facilities, Action Items, User Management, Announcements, Settings",
+        "page": 7
+    },
+    {
+        "section": "Section 4: The Application Workspace & Navigation",
+        "rule": "Below a Support heading, four items must appear: FAQs, Tickets, Contact, Take a Tour",
+        "page": 8
+    },
+    {
+        "section": "Section 4: The Application Workspace & Navigation",
+        "rule": "Header must contain Search, Notifications (bell icon with badge showing outstanding action items), and Account (initials avatar revealing email and Logout button)",
+        "page": 8
+    },
+    {
+        "section": "Section 4: The Application Workspace & Navigation",
+        "rule": "'+ New Waiver Request' button must be available from the sidebar on every page",
+        "page": 8
+    },
+    {
+        "section": "Section 5: My Applications",
+        "rule": "URL for My Applications dashboard is /dashboard/my-applications",
+        "page": 9
+    },
+    {
+        "section": "Section 5: My Applications",
+        "rule": "Waiver-type tabs must be: All, Patient Needs Waiver (PNW) Request, Program Flexibility (PF) Request, Workforce Shortage Waiver (WSW) Request",
+        "page": 9
+    },
+    {
+        "section": "Section 5: My Applications",
+        "rule": "Status chips must be: All Applications, Draft, Submitted, Reopen, In Review, Rejected, Approved, Evaluator Review, Manager Review, Revoked, Expired",
+        "page": 9
+    },
+    {
+        "section": "Section 5: My Applications",
+        "rule": "Applications table columns must be: Waiver ID, Name, Facility, Type, Status, Created on",
+        "page": 10
+    },
+    {
+        "section": "Section 5: My Applications",
+        "rule": "Two summary doughnut charts must be present: 'Applications by Type' (PNW, PF, WSW breakdown) and 'Applications Overview' (status breakdown)",
+        "page": 10
+    },
+    {
+        "section": "Section 6: Submitting a New Waiver Application",
+        "rule": "New Waiver Application opens as a panel over the current page with step tabs: Waiver Type, Select Location, Fill Application",
+        "page": 11
+    },
+    {
+        "section": "Section 6: Submitting a New Waiver Application",
+        "rule": "Step 1 must list three selectable waiver type cards: Patient Needs Waiver (PNW) Request, Program Flexibility (PF) Request, Workforce Shortage Waiver (WSW) Request",
+        "page": 11
+    },
+    {
+        "section": "Section 6: Submitting a New Waiver Application",
+        "rule": "A waiver type that is not currently open must be marked (e.g. 'Expired'), cannot be selected, and must show the dates it was available",
+        "page": 11
+    },
+    {
+        "section": "Section 6: Submitting a New Waiver Application",
+        "rule": "Step 2 (Select Location) requires choosing the facility and facility type",
+        "page": 11
+    },
+    {
+        "section": "Section 6: Submitting a New Waiver Application",
+        "rule": "Step 3 (Fill Application) requires contact number, dates, description, supporting documents, and a required acknowledgement before submission",
+        "page": 11
+    },
+    {
+        "section": "Section 6: Submitting a New Waiver Application",
+        "rule": "User must be able to navigate back to an earlier step using Next/back controls, and the panel must close via an × button in the top-right corner",
+        "page": 12
+    },
+    {
+        "section": "Section 7: Facilities",
+        "rule": "URL for Facilities page is /dashboard/facilities",
+        "page": 13
+    },
+    {
+        "section": "Section 7: Facilities",
+        "rule": "Status chip filters must be: All Facilities, Due Soon, Upcoming, Scheduled, Overdue, No Status; additional filters by Role, Type, and search by name",
+        "page": 13
+    },
+    {
+        "section": "Section 7: Facilities",
+        "rule": "Status chips and Status/License Exp Date columns are part of 'Facilities Status Tracking' feature, toggleable under Settings → Features",
+        "page": 14
+    },
+    {
+        "section": "Section 7: Facilities",
+        "rule": "Facilities table columns must be: Name, Type, License Number, License Exp Date, Status",
+        "page": 14
+    },
+    {
+        "section": "Section 7: Facilities",
+        "rule": "A 'Facilities Status Overview' summary must appear below the table",
+        "page": 14
+    },
+    {
+        "section": "Section 8: Action Items",
+        "rule": "URL for Action Items page is /dashboard/action-items",
+        "page": 15
+    },
+    {
+        "section": "Section 8: Action Items",
+        "rule": "Action Items table columns must be: ID, Name, Status, Priority, Due Date; each Name links to the relevant record",
+        "page": 15
+    },
+    {
+        "section": "Section 8: Action Items",
+        "rule": "Filterable by Status (values: Done, In Process) and Priority (values: High, Medium, Low)",
+        "page": 15
+    },
+    {
+        "section": "Section 8: Action Items",
+        "rule": "A summary doughnut chart must show total action items broken down by priority, matching the notification badge count in the header",
+        "page": 16
+    },
+    {
+        "section": "Section 9: User Management",
+        "rule": "URL for User Management page is /dashboard/user-management",
+        "page": 17
+    },
+    {
+        "section": "Section 9: User Management",
+        "rule": "Two tabs must separate current Members from Pending Invites, each showing a count",
+        "page": 17
+    },
+    {
+        "section": "Section 9: User Management",
+        "rule": "User table columns must be: Name, Email, Associated Facilities, Last Updated, Actions (edit and remove)",
+        "page": 17
+    },
+    {
+        "section": "Section 9: User Management",
+        "rule": "An 'Invite User' button must appear in the top-right corner to add a new user",
+        "page": 17
+    },
+    {
+        "section": "Section 10: Announcements",
+        "rule": "URL for Announcements page is /dashboard/announcements",
+        "page": 18
+    },
+    {
+        "section": "Section 10: Announcements",
+        "rule": "Each announcement must show title, status badge (Active, Upcoming, or Expired), optional priority badge (High, Medium, Low), and date",
+        "page": 18
+    },
+    {
+        "section": "Section 10: Announcements",
+        "rule": "Announcements must be expandable on click to reveal full detail, and a search box must allow finding specific announcements",
+        "page": 18
+    },
+    {
+        "section": "Section 11: Support — FAQs",
+        "rule": "URL for FAQs page is /dashboard/faqs; questions must expand on click to reveal answers",
+        "page": 19
+    },
+    {
+        "section": "Section 11: Support — Tickets",
+        "rule": "URL for Tickets page is /dashboard/tickets, page tagline 'Support Tickets — Track and manage your support tickets'",
+        "page": 19
+    },
+    {
+        "section": "Section 11: Support — Tickets",
+        "rule": "Tickets listed as cards showing ticket number, status and priority badges, created/updated times; filterable by Status and Priority; 'View Details' opens a ticket; '+ New Ticket' raises one",
+        "page": 20
+    },
+    {
+        "section": "Section 11: Support — Tickets",
+        "rule": "Create New Support Ticket panel must require Title, Related Application, Category, Sub Category, Description, and allow file attachments, with a 'Create Ticket' button",
+        "page": 20
+    },
+    {
+        "section": "Section 11: Support — Contact",
+        "rule": "URL for Contact page is /dashboard/contact, tagline 'Get in touch with our support team'",
+        "page": 21
+    },
+    {
+        "section": "Section 11: Support — Contact",
+        "rule": "Support email must be support@waiver-pro.org",
+        "page": 22
+    },
+    {
+        "section": "Section 11: Support — Contact",
+        "rule": "Support phone must be +1 (555) 123-4567",
+        "page": 22
+    },
+    {
+        "section": "Section 11: Support — Contact",
+        "rule": "Support address must be 123 Healthcare Plaza, Suite 400, New York, NY 10001",
+        "page": 22
+    },
+    {
+        "section": "Section 11: Support — Contact",
+        "rule": "Business hours must be Monday – Friday, 9:00 AM – 6:00 PM EST, closed weekends",
+        "page": 22
+    },
+    {
+        "section": "Section 11: Support — Contact",
+        "rule": "Messages sent through the contact form are typically answered within 24 hours during business days",
+        "page": 22
+    },
+    {
+        "section": "Section 12: Settings",
+        "rule": "URL for Settings page is /dashboard/settings, tagline 'Manage your account and preferences'",
+        "page": 23
+    },
+    {
+        "section": "Section 12: Settings",
+        "rule": "Settings organised into four cards: Organisation, Profile Information, Notifications, Security, Features",
+        "page": 23
+    },
+    {
+        "section": "Section 12: Settings",
+        "rule": "Profile Information must include first name, last name, read-only email, phone number, with a 'Save Changes' button",
+        "page": 23
+    },
+    {
+        "section": "Section 12: Settings",
+        "rule": "Notifications card must have toggles for Email Notifications, Status Updates, and Action Items",
+        "page": 23
+    },
+    {
+        "section": "Section 12: Settings",
+        "rule": "Security card requires new password to be at least 6 characters, with a 'Change Password' button",
+        "page": 24
+    },
+    {
+        "section": "Section 12: Settings",
+        "rule": "Features card must allow toggling Facilities Status Tracking and FAQ Assistant Chatbot (off by default)",
+        "page": 24
+    },
+    {
+        "section": "Section 13: Legal — Privacy & Terms",
+        "rule": "Privacy Policy and Terms of Service must be accessible at /privacy and /terms respectively, without signing in, linked from the landing page footer",
+        "page": 25
+    },
+    {
+        "section": "Section 13: Legal — Privacy & Terms",
+        "rule": "Each legal page must show 'Last updated: December 2025' and a 'Back to Home' link",
+        "page": 26
+    },
+    {
+        "section": "Appendix: Status Reference",
+        "rule": "Waiver types must be: Patient Needs Waiver (PNW), Program Flexibility (PF), Workforce Shortage Waiver (WSW)",
+        "page": 27
+    },
+    {
+        "section": "Appendix: Status Reference",
+        "rule": "Application statuses must be: Draft, Submitted, Reopen, In Review, Evaluator Review, Manager Review, Approved, Rejected, Revoked, Expired",
+        "page": 27
+    },
+    {
+        "section": "Appendix: Status Reference",
+        "rule": "Action item statuses must be: Done, In Process; priorities must be High, Medium, Low",
+        "page": 27
+    },
+    {
+        "section": "Appendix: Status Reference",
+        "rule": "Support ticket statuses must be: Open, In Progress, Resolved, Closed; priorities must be High, Medium, Low",
+        "page": 27
+    },
+    {
+        "section": "Appendix: Status Reference",
+        "rule": "Announcement statuses must be: Active (currently in effect), Upcoming (scheduled to take effect), Expired (no longer in effect)",
+        "page": 27
+    }
+]
