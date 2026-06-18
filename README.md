@@ -2,7 +2,7 @@
 
 Automated pipeline that checks whether the live **WaiverPro** web app matches its official guideline PDF: parses the PDF into rules, extracts the live UI via Playwright, compares the two, and produces a discrepancy report with citations and screenshots.
 
-> [Author name here]
+
 
 ---
 
