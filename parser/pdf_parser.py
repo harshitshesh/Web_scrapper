@@ -6,7 +6,7 @@ from gemini_extractor import extract_rules_from_text
 pdf_path = "docs/Waiverpro.pdf"
 os.makedirs("parser", exist_ok=True)
 
-USE_LLM = False  
+USE_LLM = True    
 
 if USE_LLM:
     full_text = ""

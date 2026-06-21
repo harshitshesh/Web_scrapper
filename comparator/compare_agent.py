@@ -1,11 +1,18 @@
 
 import json
 import re
+import os
 from datetime import datetime, timezone
 
 USE_LLM = False
 
-with open("parser/guideline.json", "r", encoding="utf-8") as f:
+GUIDELINE_FILE = (
+    "parser/guideline.json" 
+    if os.path.exists("parser/guideline.json") 
+    else "parser/guideline_backup.json"
+)
+
+with open(GUIDELINE_FILE, "r", encoding="utf-8") as f:
     guidelines = json.load(f)
 
 with open("reports/extracted_data.json", "r", encoding="utf-8") as f:
