@@ -71,7 +71,7 @@ To re-enable: add a working `GEMINI_KEY` to `.env` and set `USE_LLM = True` in `
 
 ## What Was Missed
 
-- Landing page (`/`) and `/login` aren't covered by the automated extractor yet — only authenticated `/dashboard/...` routes are. (Manually spot-checked: landing page button reads "Get Started", guideline says "Sign In".)
+- Landing page (`/`) and `/login` aren't covered by the automated extractor yet — only authenticated `/dashboard/...` routes are. (Manually spot-checked: landing page button reads "Getting Started", guideline says "Sign In".)
 - Modal/panel flows (New Waiver Application, Create Support Ticket) aren't extracted yet.
 - Badge counts sometimes concatenate with labels in raw extraction (e.g. `"All0"`) — not yet cleaned up.
 - Rule-based comparator fallback is simple text overlap, so some flagged discrepancies may be false positives a real LLM pass would resolve.
